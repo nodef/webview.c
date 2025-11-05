@@ -1,0 +1,10 @@
+.github/
+cmake/
+docs/
+examples/
+packaging/
+scripts/
+test_driver/
+.clang-format
+.clang-tidy
+.gitattributes

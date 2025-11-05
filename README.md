@@ -3,7 +3,7 @@
 <a href="https://discord.gg/24KMecn" title="Join the chat at Discord"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0b5061df29d55a92d945_full_logo_blurple_RGB.svg" alt="Discord" height="20" /></a>
 [![Build Status](https://img.shields.io/github/actions/workflow/status/webview/webview/ci.yaml?branch=master)](https://github.com/webview/webview/actions)
 
-A tiny cross-platform webview library for C/C++ to build modern cross-platform GUIs.
+A tiny cross-platform webview library for C/C++ to build modern cross-platform GUIs, by [Serge Zaitsev](https://github.com/zserge).
 
 The goal of the project is to create a common HTML5 UI abstraction layer for the most widely used platforms.
 
@@ -19,6 +19,18 @@ Platform | Technologies
 Linux    | [GTK][gtk], [WebKitGTK][webkitgtk]
 macOS    | Cocoa, [WebKit][webkit]
 Windows  | [Windows API][win32-api], [WebView2][ms-webview2]
+
+## Installation
+
+Run:
+```bash
+$ npm i webview.c
+```
+
+And then include `webview.h` as follows:
+```c
+#include "node_modules/webview.c/core/include/webview.h"
+```
 
 ## Documentation
 
@@ -519,3 +531,10 @@ Code is distributed under MIT license, feel free to use it in your proprietary p
 [ms-webview2-sdk]:   https://www.nuget.org/packages/Microsoft.Web.WebView2
 [ms-webview2-rt]:    https://developer.microsoft.com/en-us/microsoft-edge/webview2/
 [win32-api]:         https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/webview.c)
